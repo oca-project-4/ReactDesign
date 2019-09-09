@@ -36,10 +36,8 @@ export default class PostAnswer extends Component {
           <div className="commints">
             <div className="commints_answers">10 Commints</div>
 
-            <PostCommints />
-            <PostCommints />
-            <PostCommints />
-            <PostCommints />
+          
+            {/* <PostCommints /> */}
           </div>
         </div>
       </div>

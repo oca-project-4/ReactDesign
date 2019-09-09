@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PostSingle from "./PostSingle";
+import PostCommints from './PostCommints' 
 export default class PostItem extends Component {
   render() {
     return (
@@ -37,7 +38,10 @@ export default class PostItem extends Component {
           </div>
         </div> 
 
-        {/* <PostSingle /> */}
+        <PostSingle />
+        <PostCommints/>
+        <PostCommints/>
+        <PostCommints/>
       </div>
     );
   }

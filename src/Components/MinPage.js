@@ -15,10 +15,9 @@ export default class MinPage extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-10">
-              <AddNewPost/>
+              {/* <AddNewPost/> */}
               <PostItem />
-              <PostItem />
-              <PostItem />
+             
               {/* <LogIn /> */}
               {/* <SignUp /> */}
               {/* <UserProfile/> */}
